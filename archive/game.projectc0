@@ -1,0 +1,22 @@
+[project]
+title = Side-scroller
+
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /render/game.renderc
+
+[input]
+game_binding = /input/game.input_bindingc
+
+[display]
+width = 1280
+height = 720
+
+[physics]
+scale = 0.02
+gravity_y = 0
+debug = 0
+
+[script]
+shared_state = 1
+
